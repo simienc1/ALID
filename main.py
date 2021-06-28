@@ -9,6 +9,11 @@ def endprogram():
 	sys.exit()
 
 
+#Integrating with GUI interface
+import BasicGUI
+BasicGUI.main()
+
+
 #Reading the image by parsing the argument 
 
 text = str(ImageFile)
